@@ -14,3 +14,5 @@ Program reads in DNA sequence (processed in a simple text file) and text file co
 User can dictate maximum number of mismatches before gRNA is considered valid (default 5), and alignment parameters. Note, no scoring matrix used here; match score is the same for all four nucleotides, and dictated by user (default 1).
 
 Since no clear "target" is provided, perfect alignment score is considered "on-target". Only places where gRNA aligns with at most max number of mismatches are written to output. For each such place, output shows the gRNA sequence, the full DNA sequence, and the aligned gRNA; further, output tells if this is "target" or "off-target" based on alignment score, and whether we are looking at the forward DNA strand or reverse complement DNA strand.
+
+Sample DNA sequence, gRNA sequences, and resulting output are provided.
