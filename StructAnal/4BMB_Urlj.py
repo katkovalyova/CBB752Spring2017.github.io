@@ -8,8 +8,8 @@ __version__ = "1.0.0"
 __maintainer__ = "Yekaterina Kovalyova"
 __email__ = "yekaterina.kovalyova@yale.edu"
 
-### Usage:      python structAnal.py -u1 <U_RLJ 1> -u2 <U_RLJ 2> 
-### Example:    python structAnal.py -u1 4BMB_F19.txt -u2 4BMB_F19Y.txt
+### Usage:      python 4BMB_Urlj.py -u1 <U_RLJ 1> -u2 <U_RLJ 2> 
+### Example:    python 4BMB_Urlj.py -u1 4BMB_F19.txt -u2 4BMB_F19Y.txt
 ### Note:       Structural comparison of protein to its mutant.
 
 import argparse

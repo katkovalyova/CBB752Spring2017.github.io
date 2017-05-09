@@ -8,8 +8,8 @@ __version__ = "1.0.0"
 __maintainer__ = "Yekaterina Kovalyova"
 __email__ = "yekaterina.kovalyova@yale.edu"
 
-### Usage:      python structAnal.py -p1 <pdb prot 1> -p2 <pdb prot 2>
-### Example:    python structAnal.py -p1 4bmb_aligned.pdb -p2 4bme_aligned.pdb
+### Usage:      python 4BMB_RMSD.py -p1 <pdb prot 1> -p2 <pdb prot 2>
+### Example:    python 4BMB_RMSD.py -p1 4bmb_aligned.pdb -p2 4bme_aligned.pdb
 ### Note:       Structural comparison of protein to its mutant.
 
 import argparse
